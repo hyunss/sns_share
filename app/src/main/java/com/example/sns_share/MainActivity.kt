@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         instagram_btn.setOnClickListener {
             instagramShare()
         }
-        facebook_btn.setOnClickListener {
+        other_sns_btn.setOnClickListener {
 
             val bmp = BitmapFactory.decodeResource(resources, R.drawable.abc)
             val uri: Uri? = getImageUri(this, bmp)
